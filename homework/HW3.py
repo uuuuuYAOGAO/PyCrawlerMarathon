@@ -54,6 +54,12 @@
 # for chapter in chapters:
 #     print(chapter['@name'], chapter['#text'])
 -------------------------------------------------------------------------------------------------------------------------
+#file I/O和xmltodict的差異
+#file I/O 資料形式仍為xml
+#xmltodict 資料形式為dictionary
+
+
+
 import os, sys
 import xmltodict
 fh = open("./example/64_72hr_CH.xml", "r", encoding='UTF-8')
