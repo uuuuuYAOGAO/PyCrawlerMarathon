@@ -6,6 +6,7 @@ r = requests.get(' https://www.dcard.tw/_api/forums/pet/posts?popular=true')
 response = r.text
 data = json.loads(response)
 #第一題
+n=0
 for d in data:    
     n+=1
 print(n) #一次總共幾筆資料
